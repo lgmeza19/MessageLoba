@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message🌟</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=tqgUYekUFqIq&format=png&color=000000" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <button type="submit" class="btn" onclick="openPopup()">Mensaje del universo🔮</button>
+        <div class="popup" id="popup">
+            <img src="popup_img.png" alt="img_popup">
+            <h2>Mensaje de Alto Impacto💅</h2>
+            <p>Levanta ese rostro autóctono, levanta tu rostro, volteate a ver en el espejo, dicetelo. Tú vales, porque tú eres fuerte, porque tú eres poderosa, porque tú eres <strong>LOBA</strong>, porque tú decretalo y lógralo, porque tienes tus pensamientos claros y decisivos, porque tú eres simplemente cosmopolita. — "Lic. Karina Torres"</p>
+            <button type="button" onclick="closePopup()">Gracias loba de alto impacto💅</button>
+        </div>
+    </div>
+
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script>
+</body>
+</html>
